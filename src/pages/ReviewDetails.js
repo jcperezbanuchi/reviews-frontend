@@ -23,7 +23,6 @@ export default function ReviewDetails() {
 
 	if (loading) return <p>Loading...</p>;
 	if (error === true) return <p>Error :(...</p>;
-	console.log(data.review);
 	return (
 		<div className="review-card">
 			<div className="rating">{data.review.data.attributes.rating}</div>
