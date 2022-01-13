@@ -9,7 +9,6 @@ export default function Homepage() {
 
 	if (loading) return <p>Loading...</p>;
 	if (error === true) return <p>Error :(...</p>;
-	console.log(data);
 
 	return (
 		<div>
