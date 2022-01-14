@@ -7,7 +7,7 @@ import Category from "./pages/Category";
 import SiteHeader from "./components/SiteHeader";
 
 const client = new ApolloClient({
-	uri: "http://localhost:1337/graphql",
+	uri: "https://gaming-reviews-backend.herokuapp.com/graphql",
 	cache: new InMemoryCache(),
 });
 
