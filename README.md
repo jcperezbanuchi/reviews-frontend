@@ -6,7 +6,13 @@ Demo app here: https://gaming-reviews-frontend.herokuapp.com/
 
 # Technology
 
-Built using React.js, Node.js, Graphql, Strapi, CSS.
+Built using:
+
+-   React.js
+-   Node.js
+-   Graphql
+-   Strapi
+-   CSS.
 
 # Features
 
